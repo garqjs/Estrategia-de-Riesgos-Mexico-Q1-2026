@@ -1,45 +1,53 @@
 # Análisis de ventas de la cadena de tiendas SuperStore USA
 
-## Objetivo
+# 📊 Diagnóstico de Rentabilidad: SuperStore USA
+[![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow.svg)](https://powerbi.microsoft.com/)
+[![Dataset](https://img.shields.io/badge/Data-Kaggle-blue.svg)](https://www.kaggle.com/datasets/jr2000/superstore-data)
 
-Encontrar el origen de las bajas ganancias de la cadena SuperStore, una hipertienda con presencia en Estados Unidos que se dedica a la venta de electrónicos, muebles y artículos de oficina, aplicando análisis exploratorio y visualización de datos para obtener información importante acerca de las tendiencias de las ventas por región y por categoría. Con estos insights, se podrán desarrollar estrategias efectivas y tomar decisiones informadas para aumentar las ganancias de la cadena comercial.
+## 🎯 Objetivo del Proyecto
+Identificar el origen de las bajas ganancias en la cadena **SuperStore**, una hipertienda con presencia nacional en EE. UU. El análisis se centra en detectar tendencias críticas por región y categoría para proponer estrategias que reviertan las pérdidas y optimicen el margen operativo.
 
-Los datos fueron obtenidos del dataset de [Kaggle](https://www.kaggle.com/code/machimizado/aumentando-ganancias-en-supersales?scriptVersionId=136585906&cellId=2 ) y analizados con la herramienta de visualización Power BI.
+## 📈 Indicadores Clave (KPIs)
+Para este análisis se monitorearon cuatro métricas fundamentales:
+* **Ventas Totales:** Volumen bruto de facturación.
+* **Ganancias Brutas:** Utilidad real tras costos.
+* **Margen de Ganancia:** Eficiencia de rentabilidad por producto.
+* **Descuentos Aplicados:** Impacto de la política de precios en la utilidad.
 
-## Indicadores clave
+---
 
-- Total de Ventas
+## 🔍 Hallazgos Principales (Insights)
 
-- Ganancias Brutas
+### 📦 Análisis por Categoría
+* **Tecnología (Top Performance):** Es el motor de ingresos. Las **copiadoras y accesorios** son los productos más rentables. Los smartphones mantienen un alto volumen, aunque con márgenes más ajustados.
+* **Suministros de Oficina (Mix Variable):** El **papel** destaca como la subcategoría más rentable, mientras que los artículos menores de oficina presentan fugas de capital.
+* **Muebles (Zona Crítica):** Es la categoría con menor desempeño. Las **sillas** tienen alto volumen pero bajo margen. Las **mesas y libreros** representan pérdidas netas para la compañía.
 
-- Margen de Ganancia
-
-- Total de Descuentos
 
 
-## Ventas y ganancias por categoría
- 
-La categoría de tecnología genera la mayor cantidad de ingresos, las copiadoras y los accesorios son los más rentables seguido de los smartphones que mantienen un alto volumen de ventas.
+### 🌎 Análisis Regional
+* **Liderazgo del Oeste:** La región Oeste es la más eficiente, impulsada por artículos de oficina y copiadoras, contando con el doble de clientes que la región Sur.
+* **Inestabilidad en la Región Central:** Representa el 21.8% de las ventas, pero solo el **13.9% de las ganancias**.
+* **El Problema de los Descuentos:** En la región Central, la alta frecuencia de **descuentos en muebles** es el factor principal de las pérdidas. Las mesas, incluso con descuento, no logran un margen positivo.
 
-La segunda categoría que genera más rentabilidad es la venta de suministros para oficina. La venta de papel es la subcategoría más rentable mientras que la venta de artículos para oficina genera pérdidas.
 
-La categoría de muebles genera menos ganancias en comparación con las otras categorías. El producto más rentable es la venta de mobiliario y la venta de sillas es alta en volumen pero con bajo margen de ganancia. La venta de mesas y libreros generan pérdidas. 
 
-## Ventas y ganancias por región
+---
 
-La región Oeste genera la mayor cantidad de ventas, seguida por la región Este. La región Central se ubica en tercer lugar, mientras que la región Sur ocupa el último puesto. Al evaluar las ganancias se observa que la región Central representa el 21.8% de las ventas totales y solo contribuye con el 13.9% de las ganancias.
+## 🛠️ Herramientas y Metodología
+1.  **Extracción:** Datos obtenidos de Kaggle (SuperStore Dataset).
+2.  **Procesamiento:** Limpieza y modelado de datos para asegurar la consistencia entre regiones.
+3.  **Visualización:** Creación de un Dashboard interactivo en **Power BI** para facilitar el drill-down por estado y categoría.
 
-Al analizar las ventas en la región Oeste, la categoría de artículos de oficina es la que genera mayores ventas y ganancias, principalmente impulsada por las ventas de sobres, etiquetas y papel. Las fotocopiadoras representan un porcentaje importante en las ganancias, a pesar de no venderse en grandes cantidades.
+---
 
-Al comparar el Sur con el Oeste, se concluye que las ventas promedio de muebles son más bajas en la región Sur. Además, la venta de mesas en la región Sur genera pérdidas significativas. Destacando que el Oeste cuenta con aproximadamente el doble de clientes que el Sur. 
+## 💡 Conclusiones y Estrategias Recomendadas
 
-La región Central tiene bajas ganancias por las ventas de artículos de oficina y presenta pérdidas por la venta de muebles. El factor principal en las bajas ganancias de la región Central se atribuye a la alta frecuencia de descuentos aplicados en la venta de muebles. La venta de mesas tiene un margen de ganancia bajo, incluso al aplicar descuentos, genera pérdidas significativas.
+1.  **Optimización de Descuentos:** Suspender de inmediato los descuentos en la categoría de **Muebles** (mesas y libreros), ya que no estimulan la rentabilidad. Redirigir estos incentivos a **Tecnología**, donde las copiadoras tienen margen para crecer en volumen.
+2.  **Expansión de Cartera:** Implementar estrategias de captación de clientes en las regiones **Sur y Central** para igualar la escala del Oeste.
+3.  **Revisión de Costos:** Realizar un análisis de costos con proveedores para las subcategorías de mobiliario que presentan pérdidas estructurales.
 
-## Conclusiones
-
-_Para mejorar las ventas es necesario aumentar el número de clientes, especialmente en las zonas Sur y Central.
-Se recomienda revisar los costos de las mesas y los libreros para asegurar un margen de ganancia rentable y considerar la suspensión de descuentos en esta categoría.
-En cambio, se podrían redirigir los descuentos hacia la categoría de Tecnología, ya que productos como las Fotocopiadoras tienen un bajo volumen de ventas, pero generan excelentes ganancias. Además, es necesario un análisis detallado de cada región para identificar las tiendas específicas que presentan las ventas más bajas y los descuentos más altos._
+---
 
 
 
