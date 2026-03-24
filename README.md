@@ -1,6 +1,12 @@
 # 🇲🇽 Motor de Riesgo Crediticio y Optimización P&L (México 2026)
 
-Este repositorio contiene un sistema de decisión de **Grado Bancario** diseñado para el entorno financiero mexicano de marzo 2026. Integra variables macroeconómicas críticas con un modelo de Machine Learning auditable para maximizar la rentabilidad de una cartera Fintech.
+📘 Nota de Evolución del Proyecto
+
+⚠️ Este repositorio es un prototipo inicial de investigación.
+
+Aquí se exploraron las primeras correlaciones estadísticas entre informalidad y riesgo para el entorno financiero mexicano de marzo 2026. Este código ha evolucionado hacia un Framework Profesional de Grado Bancario con arquitectura modular (OOP), optimización de utilidades y procesamiento de alto rendimiento con DuckDB.
+
+👉 **Ver la versión final y robusta aquí:** [Macro-Risk-Supervision-Engine-MX](https://github.com/garqjs/Macro-Risk-Supervision-Engine-MX)
 
 ---
 
